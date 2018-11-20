@@ -1,0 +1,18 @@
+@import 'base.css';
+
+.header{width: 100%; background-color: #ffffff; border-bottom: 1px solid #ccc;}
+.wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
+.logo{float: left;}
+.logo > img{width: 50%; height: 50%;}
+.hd_lt > li{float: left; padding: 1.5rem;}
+.hd_rt > li{float: left; text-align: right; padding: 1.5rem 1rem; font-size: 13px; color: #626464; font-family: 'Roboto', sans-serif;}
+
+.intro{padding: 6.25rem 0; width: 100%:}
+.intro_lt{float: left; width: 30%; position: relative;}
+.intro_txt{position: absolute; top: 100px; left: 0;}
+.intro_txt > h1{color: #57548a; font-family:}
+.intro_txt > p{color: #4c4a4c;}
+.intro_rt{float: right; width: 70%;}
+.intro_list{}
+.intro_list > li{float: left; margin-right: 2%; width:23.33333333333333%;}
+.intro_list > li > img{}
