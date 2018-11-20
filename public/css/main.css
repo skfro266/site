@@ -1,18 +1,34 @@
 @import 'base.css';
 
+.eng{font-family: 'Caveat', cursive;}
+
 .header{width: 100%; background-color: #ffffff; border-bottom: 1px solid #ccc;}
 .wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
-.logo{float: left;}
-.logo > img{width: 50%; height: 50%;}
-.hd_lt > li{float: left; padding: 1.5rem;}
-.hd_rt > li{float: left; text-align: right; padding: 1.5rem 1rem; font-size: 13px; color: #626464; font-family: 'Roboto', sans-serif;}
+.logo{float: left; padding-top: 0.5rem;}
+.logo > img{width: 40%; height: 40%; margin-top: 0.5rem;}
+.hd_lt > li{float: left; padding: 2rem 1.5rem; font-weight: bold;}
+.hd_lt > li:hover{background-color: #000; color: #fff;}
+.hd_rt > li{float: left; text-align: right; padding: 2.25rem 1rem; font-size: 13px; color: #626464; font-family: 'Roboto', sans-serif;}
+.hd_rt > li:hover{color: #ccc;}
+.hd_rt > li > .fa{margin-right: 0.25rem;}
+
+.banners{width: 100%; height: 482px; overflow: hidden;}
+.ban_wrap{width: 100%; height: 100%; position: relative;}
+.ban{width: 100%; position: absolute; top:0; left: 0;}
+
 
 .intro{padding: 6.25rem 0; width: 100%:}
 .intro_lt{float: left; width: 30%; position: relative;}
 .intro_txt{position: absolute; top: 100px; left: 0;}
-.intro_txt > h1{color: #57548a; font-family:}
-.intro_txt > p{color: #4c4a4c;}
+.intro_txt > h1{color: #57548a; font-size: 3rem;}
+.bars{width: 4px; height: 48px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
+.bars > .cir_lt{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 4px; height: 4px;border-radius: 1px;}
+.bars > .cir_rt{position: absolute; bottom: 0; left: 0; background-color: #cbb7d9; width: 4px; height: 4px;border-radius: 1px;}
+.intro_txt > p{color: #4c4a4c; padding-top: 0.875rem; margin-left: 20px;}
 .intro_rt{float: right; width: 70%;}
 .intro_list{}
-.intro_list > li{float: left; margin-right: 2%; width:23.33333333333333%;}
-.intro_list > li > img{}
+.intro_list > li{float: left; margin-right: 2%; width:23.33333333333333%; position: relative; overflow: hidden;}
+.intro_list > li > img{width: 100%;}
+.intro_list > li > .bl_bg{background-color: #000; opacity: 0.5;width:100%; position: absolute; bottom: 0;}
+.bl_bg > p{ color: #fff; padding:20px 0 0 10px;}
+.bl_bg > p > span{display: block} 
