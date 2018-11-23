@@ -1,6 +1,5 @@
 @import 'base.css';
 
-<<<<<<< HEAD
 .eng{font-family: 'Caveat', cursive; color: #57548a; font-size: 4rem; line-height: 2.5rem; margin-bottom: 1.25rem;}
 .bars{width: 5px; height: 60px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
 .bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
@@ -108,44 +107,3 @@
 .info4 > h5{text-transform: uppercase;}
 .info4 > p{font-size: 0.75rem; line-height: 1.125rem;}
 .info4 > p > span{display: block;}
-=======
-.eng{font-family: 'Caveat', cursive; color: #57548a; font-size: 3rem;}
-.bars{width: 4px; height: 48px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
-.bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 4px; height: 4px;border-radius: 1px;}
-.bars > .cle{position: absolute; bottom: 0; left: 0; background-color: #cbb7d9; width: 4px; height: 4px;border-radius: 1px;}
-
-.header{width: 100%; height: 9%; border-bottom: 1px solid #ccc;}
-.hd_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
-.logo{float: left; padding-top: 0.25rem;}
-.logo > img{width: 40%; height: 40%;}
-.navs > li{float: left; padding: 1.25rem 1rem; font-weight: bold;}
-.navi > li{float: right; padding:1.5rem 1rem; font-size: 0.8125rem; font-family: 'Roboto', sans-serif; color: #626464;}
-.navs > li:hover{background-color: #000; color: #fff;}
-.navi > li:hover{color: #ccc;}
-
-.banners{width: 100%; height: 482px; overflow: hidden;}
-.ban_wrap{width: 100%; height: 100%; position: relative;}
-.ban{width: 100%; position: absolute; top:0; left: 0;}
-
-
-.section{width: 100%; height: 100%;}
-.intro{padding: 6.25rem 0; width: 100%; height: 60%; border-bottom: 1px solid #ccc;}
-.intro_wrap{width: 100%; height: 100%; max-width: 1200px; margin: 0 auto;}
-.intro_lt{width: 30%; float: left; margin-top: 5%;}
-.intro_lt > p{color: #4c4a4c; margin-left: 20px;}
-.intro_lt > p > span{display: block;}
-.intro_rt{float: right; width: 70%;}
-.intro_rt > li{float: left; margin-right: 2%; width:23.33333333333333%; position: relative; overflow: hidden;}
-.intro_rt > li:nth-child(1){border-radius: 8% 0 0 0;}
-.intro_rt > li:nth-child(3){border-radius: 0 0 8% 0;}
-.intro_rt > li > img{width: 100%;}
-.bl_bg{background-color: #000; opacity: 0.5;width:100%; position: absolute; bottom: 0;}
-.bl_bg > p{ color: #fff; padding:20px 0 0 10px;}
-.bl_bg > p > span{display: block}
-
-.event{padding: 6.25rem 0; width: 100%; height: 60%; border-bottom: 1px solid #ccc;}
-.event_wrap{width: 100%; height: 100%; max-width: 1200px; margin: 0 auto;}
-.event_lt{width: 30%; float: left; margin-top: 5%;}
-.event_lt > p{color: #4c4a4c; margin-left: 20px;}
-.event_lt > p > span{display: block;}
->>>>>>> a91d8ed026ea00f6f965d99ac4ea46e050ebef18
