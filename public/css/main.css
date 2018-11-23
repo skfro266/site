@@ -1,9 +1,11 @@
 @import 'base.css';
 
-.eng{font-family: 'Caveat', cursive; color: #57548a; font-size: 3rem;}
-.bars{width: 4px; height: 48px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
-.bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 4px; height: 4px;border-radius: 1px;}
-.bars > .cle{position: absolute; bottom: 0; left: 0; background-color: #cbb7d9; width: 4px; height: 4px;border-radius: 1px;}
+.eng{font-family: 'Caveat', cursive; color: #57548a; font-size: 4rem; line-height: 2.5rem; margin-bottom: 1.25rem;}
+.bars{width: 5px; height: 60px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
+.bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
+.bars > .cle{position: absolute; bottom: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
+.bts{background-color: #f1f6f9; color: #57548a; font-size: 0.875rem; margin-top: 1.25rem; font-weight: bold;}
+.bts > button{width: 30%;}
 
 .header{width: 100%; border-bottom: 1px solid #ccc;}
 .hd_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
@@ -11,6 +13,7 @@
 .logo > img{width: 40%;}
 .navs > li{float: left; padding: 1.25rem 1rem; font-weight: bold;}
 .navi > li{float: right; line-height:60px; padding:0 1rem; font-size: 0.8125rem; font-family: 'Roboto', sans-serif; color: #626464;}
+.navi > li > .fa{margin-right: 0.5rem;}
 .navs > li:hover{background-color: #000; color: #fff;}
 .navi > li:hover{color: #ccc;}
 
@@ -19,24 +22,88 @@
 .ban{width: 100%; position: absolute; top:0; left: 0;}
 
 
-.section{width: 100%;background:url(../img/fractal2.jpg) no-repeat center 10%; background-size:115%;}
-.intro{padding: 6.25rem 0; width: 100%; height: 60%; border-bottom: 1px solid #ccc;}
+.section{width: 100%;background:url(../img/fractal2.jpg) no-repeat center 5%; background-size:115%;}
+.intro{padding: 6.25rem 0; width: 100%;}
 .intro_wrap{width: 100%; height: 100%; max-width: 1200px; margin: 0 auto;}
 .intro_lt{width: 30%; float: left; margin-top: 5%; padding-left:10%}
-.intro_lt > p{color: #4c4a4c; margin-left: 20px;}
+.intro_lt > p{color: #4c4a4c; margin-left: 20px; font-size: 1.25rem;}
 .intro_lt > p > span{display: block;}
 .intro_rt{float: right; width: 70%;}
 .intro_rt > li{float: right; margin-right: 2%; width:23.33333333333333%; position: relative; overflow: hidden;}
 .intro_rt > li:nth-child(1){border-radius: 0 0 8% 0;}
 .intro_rt > li:nth-child(3){border-radius: 8% 0 0 0;}
-.intro_rt > li > img{width: 100%;}
-.bl_bg{background-color: #000; opacity: 0.5;width:100%; position: absolute; bottom: 0;}
-.bl_bg > p{ color: #fff; padding:20px 0 0 10px;}
-.bl_bg > p > span{display: block}
+.intro_rt > li > .bl_bg{background-color: #000; opacity: 0.5;width:100%; position: absolute; bottom: 0;}
+.intro_rt > li > .bl_bg > p{color: #fff; padding:20px 0 0 10px;}
+.intro_rt > li > .bl_bg > p > span{display: block;}
 
-.event{padding: 6.25rem 0; width: 100%; height: 60%; border-bottom: 1px solid #ccc;}
-.event_wrap{width: 100%; height: 100%; max-width: 1200px; margin: 0 auto;}
-.event_lt{width: 30%; float: left; margin-top: 5%; padding-left:10%}
-.event_lt > p{color: #4c4a4c; margin-left: 20px;}
+.event{padding: 6.25rem 0; width: 100%;}
+.event_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
+.event_lt{width: 50%; float: left; margin-top: 5%; padding-left:10%}
+.event_lt > p{color: #4c4a4c; margin-left: 20px; font-size: 1.25rem;}
 .event_lt > p > span{display: block;}
-.event_rt{}
+
+.product{padding: 6.25rem 0; width: 100%;}
+.product_wrap{width: 100%;max-width: 1200px; margin: 0 auto;}
+.product_lt{width: 50%; float: left; padding-left:10%;}
+.product_lt > img{border-radius: 8% 8% 0 0;}
+.product_rt{width: 50%; float: right;}
+.product_rt > h1{margin: 0;}
+.pro_bars{width: 60px; height: 5px; border-radius: 1px; background-color: #e3d8eb; position: relative;}
+.pro_bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
+.pro_bars > .cle{position: absolute; top: 0; right: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
+.pro_list{padding: 2rem 0; width: 100%; height: 100%;}
+.pro_list > li{float: left; width: 13%; margin-right: 10%; text-align: center; cursor: pointer;}
+.pro_list > li > p{margin-top: 1rem; font-size: 0.875rem; color: #4c4a4c; text-transform: uppercase; font-weight: bold;}
+.pro_list > li > p > span{display: block;}
+
+.video{padding: 6.25rem 0; width: 100%;}
+.video_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
+.video_lt{width: 50%; float: left; margin-top: 5%; padding-left:10%}
+.video_lt > h1 > span{display: block;}
+.video_lt > p{color: #4c4a4c; margin-left: 20px; font-size: 1.25rem;}
+.video_lt > p > span{display: block;}
+.video_rt{float: right; position: relative;}
+.video_rt > img{border-radius: 50%;}
+.video_rt > .play{position: absolute; top: 50%; left: 50%; cursor: pointer;}
+/* .play > i{width: 50%; height: 50%;} */
+
+.news{padding: 6.25rem 0; width: 100%; background-color: #f2f2f2;}
+.news_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
+.news_lt{width: 30%; float: left; padding-left:10%}
+.news_lt > .bts{background-color: #fff; color: #57548a; font-size: 0.875rem; margin-top: 1.25rem; font-weight: bold;}
+.news_lt > .bts > button{width: 60%;}
+.news_lt > h1 > span{display: block;}
+.news_lt > p{color: #4c4a4c; font-size: 1.25rem; margin: 2rem 0 2rem 20px;}
+.news_lt > p > span{display: block;}
+.news_rt{float: right; width: 70%;}
+.news_rt > li{float: right; margin-right: 2%; width:23.33333333333333%; position: relative; overflow: hidden;}
+.news_rt > li > .bl_bg{background-color: #000; opacity: 0.5;width:100%; height: 40%; position: absolute; bottom: 0; font-size: 1rem;}
+.news_rt > li > .bl_bg > p{color: #fff; padding:10px 0 0 10px; font-weight: bold; font-size: 0.875rem;}
+.news_rt > li > .bl_bg > p > span{display: block;}
+
+.botlist{width: 100%; background-color: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 1rem 0;}
+.botlist_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
+.botlist_wrap > ul{text-align: center;}
+.botlist_wrap > ul > li{float: left; text-transform: uppercase; font-size: 1rem; color: #b3b3b3; padding: 0 1rem; font-weight: bold; cursor: pointer;}
+.botlist_wrap > ul > li:hover{color: #57548a;}
+
+.footer{padding: 3rem 0; width: 100%;}
+.footer_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
+.footer_wrap > ul{width: 24%; color: #4c4a4c; float: left; padding-right: 5%;}
+.info1 > h5{text-transform: uppercase;}
+.info1 > h1{color: #000;}
+.info1 > p{font-size: 0.875rem; line-height: 1.5rem;}
+.info1 > p > span{display: block;}
+.info1 > div{width: 100%;}
+.info1 > div > img{width: 30%; float: left;}
+.info1 > div > img:nth-child(2){padding-left: 1rem;}
+.info2 > h5{text-transform: uppercase;}
+.info2 > div{padding: 0.75rem 0;}
+.info2 > p{font-size: 0.875rem; line-height: 1.5rem;}
+.info2 > p > span{display: block;}
+.info3 > h5{text-transform: uppercase;}
+.info3 > p{font-size: 0.875rem; line-height: 1.5rem;}
+.info3 > p > span{display: block;}
+.info4 > h5{text-transform: uppercase;}
+.info4 > p{font-size: 0.75rem; line-height: 1.125rem;}
+.info4 > p > span{display: block;}
