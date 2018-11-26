@@ -31,12 +31,12 @@ $(".product_lt > img").hover(function(){
     $(this).css({"transform":"scale(1)","opacity":"1"});
 });
 
+$(".play > i").on("click", function(){
+    location.href="http://skfro266.dothome.co.kr/public/main/video.html"
+});
+
 $(".news_rt > li").hover(function(){
     $(this).find(".bl_bg").stop().animate({"height":"100%"},300);
 },function(){
     $(this).find(".bl_bg").stop().animate({"height":"25%"},300);
-});
-
-$(".play > i").on("click", function(){
-    location.href="http://skfro266.dothome.co.kr/public/main/video.html"
 });
