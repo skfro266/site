@@ -9,13 +9,26 @@
 
 .header{width: 100%; border-bottom: 1px solid #ccc;}
 .hd_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
-.logo{float: left; padding-top: 0.25rem;}
-.logo > img{width: 40%;}
-.navs > li{float: left; padding: 1.25rem 1rem; font-weight: bold;position: relative;}
-.navi > li{float: right; line-height:60px; padding:0 1rem; font-size: 0.8125rem; font-family: 'Roboto', sans-serif; color: #626464;}
-.navi > li > .fa{margin-right: 0.5rem;}
-.navs > li:hover{background-color: #000; color: #fff;}
-.navi > li:hover{color: #ccc;}
+.pc_logo{float: left; padding-top: 0.25rem;}
+.pc_logo > img{width: 40%;}
+.navs_pc > li{float: left; padding: 1.25rem 1rem; font-weight: bold;position: relative;}
+.navi_pc > li{float: right; line-height:60px; padding:0 1rem; font-size: 0.8125rem; font-family: 'Roboto', sans-serif; color: #626464;}
+.navi_pc > li > .fa{margin-right: 0.5rem;}
+.navs_pc > li:hover{background-color: #000; color: #fff;}
+.navi_pc > li:hover{color: #ccc;}
+
+.navs_pc {display:block;}
+.navi_mo{display: none;}
+.navs_mo {display:none;}
+.navs_sub {display:none;}
+.mo_logo{float: left; padding: 1rem;}
+.mo_logo > img{width:40%;}
+.navs_mo > .fa-bars{float: right; padding:2rem;}
+.navs_mo > .fa-bars:hover{background-color: #000; color: #fff;}
+.navs_sub{width: 100%;}
+.navs_sub > li{padding: 1rem; border-bottom: 1px solid #ccc;}
+.navs_sub > li:last-child{border-bottom: none;}
+.navs_sub > li:hover{background-color: #ccc;}
 
 .drop_menu{position: absolute; background-color: rgba(255,255,255,0.8);width: 180%; top: 100%; left: 0; z-index: 999; display: none;}
 .drop_menu > li{line-height: 1rem; font-size: 0.75rem; padding: 1rem; border-bottom: 1px solid #999;}
@@ -50,7 +63,7 @@
 
 .product{padding: 6.25rem 0; width: 100%;}
 .product_wrap{width: 100%;max-width: 1200px; margin: 0 auto;}
-.product_lt{width: 50%; float: left; padding-left:10%; overflow: hidden;}
+.product_lt{width: 50%; float: left; padding-left:10%; overflow: hidden; cursor: pointer;}
 .product_lt > img{border-radius: 8% 8% 0 0;}
 .product_rt{width: 50%; float: right;}
 .product_rt > h1{margin: 0;}
@@ -114,3 +127,9 @@
 .info4 > h5{text-transform: uppercase;}
 .info4 > p{font-size: 0.75rem; line-height: 1.125rem;}
 .info4 > p > span{display: block;}
+
+@media screen and (max-width:768px) {
+	.navs_pc {display:none;}
+	.navs_mo {display:block;}
+	.navs_sub {display:none;}
+}
