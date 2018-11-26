@@ -36,7 +36,9 @@ $(".product_lt").hover(function(){
 });
 
 $(".play > i").on("click", function(){
-    location.href="http://skfro266.dothome.co.kr/public/main/video.html"
+    var file = "video.html";
+    var opt = "width="+$(window).width()+", height="+$(window).height();
+    window.open(file, "video", opt);
 });
 
 $(".news_rt > li").hover(function(){
