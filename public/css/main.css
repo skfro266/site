@@ -63,8 +63,8 @@
 
 .product{padding: 6.25rem 0; width: 100%;}
 .product_wrap{width: 100%;max-width: 1200px; margin: 0 auto;}
-.product_lt{width: 50%; float: left; padding-left:10%; overflow: hidden; cursor: pointer;}
-.product_lt > img{border-radius: 8% 8% 0 0;}
+.product_lt{width: 40%; float: left; margin-left: 10%; overflow: hidden; cursor: pointer; border-radius: 8% 8% 0 0; }
+.product_lt > img{width: 100%;}
 .product_rt{width: 50%; float: right;}
 .product_rt > h1{margin: 0;}
 .pro_bars{width: 60px; height: 5px; border-radius: 1px; background-color: #e3d8eb; position: relative;}
@@ -132,5 +132,6 @@
 @media screen and (max-width:768px) {
 	.navs_pc {display:none;}
 	.navs_mo {display:block;}
-	.navs_sub {display:none;}
+    .navs_sub {display:none;}
+    .navi_pc{display: none;}
 }
