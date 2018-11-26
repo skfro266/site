@@ -39,7 +39,7 @@
 .intro_rt > li:nth-child(1){border-radius: 0 0 8% 0;}
 .intro_rt > li:nth-child(3){border-radius: 8% 0 0 0;}
 .intro_rt > li > .bl_bg{background-color: #000; opacity: 0.5;width:100%; height: 25%; position: absolute; bottom: 0;}
-.intro_rt > li > .bl_bg > p{color: #fff; padding:20px 0 0 10px;}
+.intro_rt > li > .bl_bg > p{color: #fff; padding:10% 0 0 5%;}
 .intro_rt > li > .bl_bg > p > span{display: block;}
 
 .event{padding: 6.25rem 0; width: 100%;}
@@ -50,7 +50,7 @@
 
 .product{padding: 6.25rem 0; width: 100%;}
 .product_wrap{width: 100%;max-width: 1200px; margin: 0 auto;}
-.product_lt{width: 50%; float: left; padding-left:10%;}
+.product_lt{width: 50%; float: left; padding-left:10%; overflow: hidden;}
 .product_lt > img{border-radius: 8% 8% 0 0;}
 .product_rt{width: 50%; float: right;}
 .product_rt > h1{margin: 0;}

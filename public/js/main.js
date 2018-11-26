@@ -14,7 +14,7 @@ function Slide() {
         banner[i].style.display = "none";  
     }
     start++;
-    if (start > banner.length) {start = 1}    
+    if (start > banner.length) {start = 1} 
     banner[start-1].style.display = "block";  
     setTimeout(Slide, 3000);
 }
@@ -25,8 +25,18 @@ $(".intro_rt > li").hover(function(){
     $(this).find(".bl_bg").stop().animate({"height":"25%"},300);
 });
 
+$(".product_lt > img").hover(function(){
+    $(this).css({"transform":"scale(1.2)","opacity":"0.6"});
+},function(){
+    $(this).css({"transform":"scale(1)","opacity":"1"});
+});
+
 $(".news_rt > li").hover(function(){
     $(this).find(".bl_bg").stop().animate({"height":"100%"},300);
 },function(){
     $(this).find(".bl_bg").stop().animate({"height":"25%"},300);
+});
+
+$(".play > i").on("click", function(){
+    location.href="http://skfro266.dothome.co.kr/public/main/video.html"
 });
