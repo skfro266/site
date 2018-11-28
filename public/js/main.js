@@ -30,9 +30,9 @@ $(".intro_rt > li").hover(function(){
 });
 
 $(".product_lt > img").hover(function(){
-    $(this).css({"transform":"scale(1.2)","opacity":"0.8"});
+    $(this).css({"animation-name":"productAni"});
 },function(){
-    $(this).css({"transform":"scale(1)","opacity":"1"});
+    $(this).css({"animation-name":"productAniBack"});
 });
 
 $(".play > i").on("click", function(){
