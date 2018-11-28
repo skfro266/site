@@ -344,9 +344,9 @@
     .event_lt > p{font-size: 1em;}
     .event_lt > p > span{display: block;}
     .event_lt .bts{font-size: 0.875rem;margin: 1.25em 0;}
-    .event_rt{width: 100%; padding: 2% 0;}
+    .event_rt{width: 100%; padding: 2% 0 0 0;}
 
-    .product{padding: 1em 0; border-bottom: 1px solid #ccc;}
+    .product{padding:0; border-bottom: 1px solid #ccc;}
     .product_lt{width: 100%; float: none; padding: 0%; border-radius: 0 0 0 0;}
     .product_rt{width: 100%; float: none; text-align: center; padding: 2%;}
     .pro_bars{display: none;}
@@ -361,10 +361,11 @@
     .video_bars{width: 5px; height: 55px;float:left;left: 30%;}
     .video_lt > p{margin-left: 1em; font-size: 1em; padding: 0.5em;}
     .video_bts{font-size: 0.875rem;margin: 1.25em auto; width: 40%;}
-    .video_rt{width: 100%;margin: 1.125em 0; padding-right: 0;}
+    .video_rt{width: 100%;margin: 1.125em 0 0 0; padding-right: 0;}
     .video_rt > img{border-radius: 0%;}
     .video_rt > .play{top: 50%; left: 48%;}
 
+    .news{padding: 0;}
     .news_lt{width: 100%; float: none; padding:2%; text-align: center;}
     .news_lt > p{font-size: 1em; padding: 0.75em 1em;}
     .news_bars{height: 55px;float: left; left: 30%;}
