@@ -39,13 +39,13 @@
 .intro{padding: 6.25em 0; width: 100%;}
 .intro_wrap{width: 100%; height: 100%; max-width: 1200px; margin: 0 auto;}
 .intro_lt{width: 30%; float: left; margin-top: 5%; padding-left:10%}
-.intro_lt > p{color: #4c4a4c; margin-left: 20px; font-size: 1.25em;}
+.intro_lt > p{color: #4c4a4c; margin-top: 1.125em; padding-left: 1.125em; font-size: 1.25em;}
 .intro_lt > p > span{display: block;}
 .intro_bars{width: 5px; height: 60px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
 .intro_bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
 .intro_bars > .cle{position: absolute; bottom: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
 .intro_rt{float: right; width: 70%;}
-.intro_rt > li{float: right; margin-right: 2%; width:23.33333333333333%; position: relative; overflow: hidden; cursor: pointer;}
+.intro_rt > li{float: right; margin-right: 2%; width:23.333%; position: relative; overflow: hidden; cursor: pointer;}
 .intro_rt > li:nth-child(1){border-radius: 0 0 8% 0;}
 .intro_rt > li:nth-child(3){border-radius: 8% 0 0 0;}
 .intro_rt > li > .bl_bg {background-color:rgba(0,0,0,0.5);width:100%; height: 25%; position: absolute; bottom: 0; color: #fff;}
@@ -56,7 +56,7 @@
 .event{padding: 6.25em 0; width: 100%;}
 .event_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
 .event_lt{width: 50%; float: left; margin-top: 5%; padding-left:10%}
-.event_lt > p{color: #4c4a4c; margin-left: 20px; font-size: 1.25em;}
+.event_lt > p{color: #4c4a4c;margin-top: 1.125em; padding-left: 1.125em; font-size: 1.25em;}
 .event_lt > p > span{display: block;}
 .event_bars{width: 5px; height: 60px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
 .event_bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
@@ -67,7 +67,7 @@
 
 .product{padding: 6.25em 0; width: 100%;}
 .product_wrap{width: 100%;max-width: 1200px; margin: 0 auto;}
-.product_lt{width: 40%; float: left; overflow: hidden; cursor: pointer; border-radius: 8% 8% 0 0; }
+.product_lt{width: 40%; float: left; overflow: hidden; cursor: pointer; border-radius: 8% 8% 0 0; padding-left: 10%;}
 .product_lt > img{width: 100%; animation-duration:0.5s; animation-fill-mode: forwards;}
 .product_rt{width: 50%; float: right;}
 .pro_eng{margin-top:0; margin-bottom: 0.4375em; font-family: 'Caveat', cursive; color: #57548a; font-size: 4em; line-height: 0.625em;}
@@ -93,7 +93,7 @@
 .video_wrap{width: 100%; max-width: 1200px; margin: 0 auto;}
 .video_lt{width: 50%; float: left; margin-top: 5%; padding-left:10%}
 .video_lt > h1 > span{display: block;}
-.video_lt > p{color: #4c4a4c; margin-left: 20px; font-size: 1.25em;}
+.video_lt > p{color: #4c4a4c; margin-top: 1.125em; padding-left: 1.125em; font-size: 1.25em;}
 .video_lt > p > span{display: block;}
 .video_bars{width: 5px; height: 60px; border-radius: 1px; background-color: #e3d8eb; position: relative; float: left;}
 .video_bars > .cir{position: absolute; top: 0; left: 0; background-color: #cbb7d9; width: 5px; height: 5px;border-radius: 1px;}
@@ -156,9 +156,12 @@
 
     .section{background-position: center 5%, 120% 65%; background-size:115%, 80%;}
     .intro{padding: 5em 0;}
+    .intro_lt > p{margin-top: 0.875em; padding-left: 1em;}
     .event{padding: 5em 0;}
+    .event_lt > p{margin-top: 0.875em; padding-left: 1em;}
     .product{padding: 5em 0;}
     .video{padding: 5em 0;}
+    .video_lt > p{margin-top: 0.875em; padding-left: 1em;}
     .news{padding: 5em 0;}
 }
 
@@ -173,14 +176,14 @@
 
     .intro{padding: 4em 0;}
     .intro_lt{margin-top: 6%; padding-left: 5%}
-    .intro_lt > p{margin-left: 20px; margin-top: 15px; font-size: 1em;}
+    .intro_lt > p{margin-top: 1.125em; padding-left: 1em; font-size: 1em;}
     .intro_rt{padding-right: 5%}
     .intro_rt > li{margin-right: 2%; width:26%;}
     .intro_rt > li > .bl_bg {font-size: 0.75em;}
 
     .event{padding: 4em 0;}
     .event_lt{margin-top: 6%; width: 50%; padding-left: 5%}
-    .event_lt > p{margin-left: 20px; margin-top: 15px; font-size: 1em;}
+    .event_lt > p{margin-top: 1.125em; padding-left: 1em; font-size: 1em;}
     .event_rt{width: 50%; padding-right: 5%;}
     
     .product{padding: 4em 0;}
@@ -192,14 +195,14 @@
 
     .video{padding: 4em 0;}
     .video_lt{margin-top: 6%; padding-left: 5%;}
-    .video_lt > p{margin-left: 20px; margin-top: 15px; font-size: 1em;}
+    .video_lt > p{margin-top: 1.125em; padding-left: 1em;font-size: 1em;}
     .video_rt{padding-right: 5%;}
     .video_rt > .play{top: 48%; left: 40%;}
 
     .news{padding: 2em 0;}
     .news_lt{margin-top: 0; padding-left: 5%;}
     .news_lt > h1{margin: 0; font-size: 3.4375em;margin-bottom: 0.125em;}
-    .news_lt > p{font-size: 1em;margin: 0}
+    .news_lt > p{font-size: 1em;margin: 0; padding-top:1em;}
     .news_bts{background-color: #fff; color: #57548a; font-size: 0.875em;font-weight: bold; width: 60%;}
     .news_rt{padding-top: 3%; padding-right: 5%;}
     .news_rt > li{width:28.33333333333333%;}
@@ -232,7 +235,7 @@
     .section{background-position: center 8%, 130% 60%; background-size:110%, 85%;}
     .intro{padding: 3em 0;}
     .intro_lt{width: 20%; margin-top: 5%; padding-left:5%}
-    .intro_lt > p{font-size: 0.75em;}
+    .intro_lt > p{font-size: 0.75em; margin-top: 1.5em; padding-left: 1em;}
     .intro_bars{height: 50px;}
     .intro_rt{width: 80%;padding-right: 5%;}
     .intro_rt > li{margin-right: 2%; width:26%;}
@@ -240,7 +243,7 @@
 
     .event{padding: 3em 0;}
     .event_lt{width: 50%;margin-top: 5%; padding-left:5%}
-    .event_lt > p{font-size: 0.75em;}
+    .event_lt > p{font-size: 0.75em; margin-top: 1.5em; padding-left: 1em;}
     .event_bars{height: 50px;}
     .event_bts{font-size: 0.75rem; width: 30%;}
     .event_rt{width: 50%; float: right; padding-right: 5%;}
@@ -255,14 +258,14 @@
 
     .video{padding: 3em 0;}
     .video_lt{margin-top: 5%; padding-left: 5%;}
-    .video_lt > p{font-size: 0.75em;}
+    .video_lt > p{font-size: 0.75em; margin-top: 1.5em; padding-left: 1em;}
     .video_bars{height: 50px;}
     .video_bts{font-size: 0.75rem; width: 30%;}
     .video_rt{padding-right: 5%;}
     .video_rt > .play{top: 46%; left: 41%;}
 
     .news_lt > h1{font-size: 2.8125em;}
-    .news_lt > p{font-size: 0.75em; margin-top: 2%;}
+    .news_lt > p{font-size: 0.75em; margin-top: 1em; padding-left: 1em;}
     .news_bars{height: 50px;}
     .news_bts{font-size: 0.8125em; margin-top: 2%;}
     .news_rt{padding-top: 2%;}
@@ -326,16 +329,16 @@
     .section{background-image:url("../img/fractal2.jpg");background-position: center 9%; background-size:130%;}
     .intro{padding:0;}
     .intro_lt{width: 100%;padding:0 2%;float: none; text-align: center;}
-    .intro_bars{width: 5px; height: 55px;float:left;left: 35%;}
-    .intro_lt > p{font-size: 1.25em;}
+    .intro_bars{width: 5px; height: 55px;float:left;left: 34%;}
+    .intro_lt > p{font-size: 1.25em; margin-top: 1.125em; padding-left: 1.125em;}
     .intro_rt{width: 100%;float: none;}
     .intro_rt > li{margin-right: 2%; width:30%;}
-    .intro_rt > li > .bl_bg {font-size: 0.9375em}
+    .intro_rt > li > .bl_bg {font-size: 0.625em}
 
     .event{padding: 1em 0;}
     .event_lt{width: 100%; float: none; text-align: center; padding: 0 2%;}
-    .event_bars{width: 5px; height: 55px;float:left;left: 23%;}
-    .event_lt > p{font-size: 1em;}
+    .event_bars{width: 5px; height: 55px;float:left;left: 16%;}
+    .event_lt > p{font-size: 1em; margin-top: 1.125em; padding-left: 1.125em;}
     .event_lt > p > span{display: block;}
     .event_lt .bts{font-size: 0.875rem;margin: 1.25em 0;}
     .event_rt{width: 100%; padding: 2% 0 0 0;}
@@ -352,8 +355,8 @@
 
     .video{padding: 0;}
     .video_lt{width: 100%; float: none; padding: 2%; text-align: center; margin: 0;}
-    .video_bars{width: 5px; height: 55px;float:left;left: 30%;}
-    .video_lt > p{margin-left: 1em; font-size: 1em; padding: 0.5em;}
+    .video_bars{width: 5px; height: 55px;float:left;left: 22%;}
+    .video_lt > p{margin-top: 1.125em; padding-left: 1.125em;font-size: 1em;}
     .video_bts{font-size: 0.875rem;margin: 1.25em auto; width: 40%;}
     .video_rt{width: 100%;margin: 1.125em 0 0 0; padding-right: 0;}
     .video_rt > img{border-radius: 0%;}
@@ -361,12 +364,13 @@
 
     .news{padding: 0;}
     .news_lt{width: 100%; float: none; padding:2%; text-align: center;}
-    .news_lt > p{font-size: 1em; padding: 0.75em 1em;}
-    .news_bars{height: 55px;float: left; left: 30%;}
+    .news_lt > p{font-size: 1em; padding: 0.75em 1.125em;}
+    .news_bars{height: 55px;float: left; left: 24%;}
     .news_bts{font-size: 0.875em;width: 40%; margin: 1.25em auto;}
     .news_rt{float: none; width: 100%;}
     .news_rt > li{margin-right: 2%; width:30%;}
-    .news_rt > li > .bl_bg{font-size: 0.6875em;}
+    .news_rt > li > .bl_bg{font-size: 0.375em;}
 
+    .botlist_wrap > ul > li{padding: 0 0.375em;}
     .botlist_wrap > ul > li{font-size: 0.5em;}
 }
