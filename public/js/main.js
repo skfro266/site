@@ -10,6 +10,7 @@ $(".navs > li").hover(function(){
 });
 
 var start = 0;
+var scTop = 0;
 Slide();
 
 function Slide() {
