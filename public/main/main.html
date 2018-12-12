@@ -13,13 +13,12 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <script defer src="/__/firebase/5.5.8/firebase-app.js"></script>
+  <!-- <script defer src="/__/firebase/5.5.8/firebase-app.js"></script>
   <script defer src="/__/firebase/5.5.8/firebase-auth.js"></script>
   <script defer src="/__/firebase/5.5.8/firebase-database.js"></script>
   <script defer src="/__/firebase/5.5.8/firebase-messaging.js"></script>
   <script defer src="/__/firebase/5.5.8/firebase-storage.js"></script>
-  <script defer src="/__/firebase/init.js"></script>
+  <script defer src="/__/firebase/init.js"></script> -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -107,21 +106,21 @@
       </div>
     </div>
     <div class="section">
-      <div class="intro">
+      <div class="intro page">
         <div class="intro_wrap clear">
           <div class="intro_lt">
-            <h1 class="eng">introduce</h1>
+            <h1 class="eng anis" data-ani="anis-eng">introduce</h1>
             <div class="intro_bars">
               <div class="cir"></div>
               <div class="cle"></div>
             </div>
-            <p>
+            <p class="anis" data-ani="anis-p">
               <span>be fragrant</span>
               <span>with fashion</span>
             </p>
           </div>
           <ul class="intro_rt">
-            <li>
+            <li class="anis" data-ani="intro-p1">
               <img src="../img/intro2.png" class="img">
               <div class="bl_bg">
                 <div>
@@ -132,7 +131,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="anis" data-ani="intro-p2">
               <img src="../img/intro3.jpg" class="img">
               <div class="bl_bg">
                 <div>
@@ -143,7 +142,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="anis" data-ani="intro-p3">
               <img src="../img/intro1.jpg" class="img">
               <div class="bl_bg">
                 <div>
@@ -157,7 +156,7 @@
           </ul>
         </div>
       </div>
-      <div class="event">
+      <div class="event page">
         <div class="event_wrap">
           <div class="event_lt">
             <h1 class="eng">event</h1>
@@ -178,7 +177,7 @@
           </div>
         </div>
       </div>
-      <div class="product clear">
+      <div class="product page clear">
         <div class="product_wrap">
           <div class="product_lt">
             <img src="../img/product.png">
@@ -216,7 +215,7 @@
           </div>
         </div>
       </div>
-      <div class="video clear">
+      <div class="video page clear">
         <div class="video_wrap">
           <div class="video_lt">
             <h1 class="eng">
@@ -243,7 +242,7 @@
           </div>
         </div>
       </div>
-      <div class="news clear">
+      <div class="news page clear">
         <div class="news_wrap">
           <div class="news_lt">
             <h1 class="eng">
@@ -260,7 +259,7 @@
             </div>
           </div>
           <ul class="news_rt">
-            <li>
+            <li class="anis" data-ani="news-p1">
               <img src="../img/news3.png" class="img">
               <div class="bl_bg">
                 <div>
@@ -271,7 +270,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="anis" data-ani="news-p2">
               <img src="../img/news2.png" class="img">
               <div class="bl_bg">
                 <div>
@@ -282,7 +281,7 @@
                   </div>
                 </div>
             </li>
-            <li>
+            <li class="anis" data-ani="news-p3">
               <img src="../img/news1.png" class="img">
               <div class="bl_bg">
                 <div>
@@ -370,6 +369,7 @@
         <address>&copy;Copyright 2018 skfro266 All rights reserved.</address>
       </div>
     </div>
+    <script defer src="../js/SpaAni.js"></script>
     <script defer src="../js/main.js"></script>
 </body>
 

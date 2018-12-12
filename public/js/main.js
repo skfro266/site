@@ -23,6 +23,11 @@ function Slide() {
     setTimeout(Slide, 3000);
 }
 
+$(".event").scroll(function(){
+    $(".event_lt").stop().fadeIn();
+    $(".event_rt").stop().fadeIn();
+});
+
 $(".intro_rt > li").hover(function(){
     $(this).find(".bl_bg").stop().animate({"height":"100%"},300);
 },function(){
@@ -46,3 +51,6 @@ $(".news_rt > li").hover(function(){
 },function(){
     $(this).find(".bl_bg").stop().animate({"height":"35%"},300);
 });
+
+
+var page = new SpaAni(".page", ".anis", 300);
