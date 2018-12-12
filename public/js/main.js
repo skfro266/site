@@ -10,7 +10,6 @@ $(".navs > li").hover(function(){
 });
 
 var start = 0;
-var scTop = 0;
 Slide();
 
 function Slide() {
@@ -23,11 +22,6 @@ function Slide() {
     banner[start-1].style.display = "block";  
     setTimeout(Slide, 3000);
 }
-
-$(".event").scroll(function(){
-    $(".event_lt").stop().fadeIn();
-    $(".event_rt").stop().fadeIn();
-});
 
 $(".intro_rt > li").hover(function(){
     $(this).find(".bl_bg").stop().animate({"height":"100%"},300);
@@ -54,4 +48,4 @@ $(".news_rt > li").hover(function(){
 });
 
 
-var page = new SpaAni(".page", ".anis", 300);
+var page = new SpaAni(".page", ".anis", 600);
